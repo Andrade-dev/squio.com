@@ -1,0 +1,2 @@
+# squio.com
+developer portifolio
