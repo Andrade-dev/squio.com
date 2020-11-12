@@ -24,7 +24,7 @@ html{
     width: 2rem;
     height: 2rem;
     position: fixed;
-    z-index: 100;
+    z-index: 200;
     right: 2rem;
     top: 2rem;
     display: flex;
@@ -131,7 +131,7 @@ header{
     text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
     line-height: 3.5rem;
     opacity: 0;
-    animation: moveBanner 1s 5s forwards;
+    animation: moveBanner 1s 2s forwards;
 }
 
 .banner p{
@@ -141,7 +141,7 @@ header{
     text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
     margin-top: 2rem;
     opacity: 0;
-    animation: moveBanner 1s 5.1s forwards;
+    animation: moveBanner 1s 2.1s forwards;
 }
 .banner button{
     font-family: var(--font-action);
@@ -157,7 +157,7 @@ header{
     border-radius: 5px;
     cursor: pointer;
     opacity: 0;
-    animation: moveBanner 1s 5.2s forwards;
+    animation: moveBanner 1s 2.2s forwards;
 }
 
 .banner button:hover{
